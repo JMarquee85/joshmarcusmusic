@@ -1851,6 +1851,12 @@ input, select, textarea {
 		position: relative;
 	}
 
+		.image.mainimagefit {
+			max-width: 100%;
+			min-width: 300px;
+			height: auto;
+		}
+
 		.image:before {
 			background: url("images/overlay.png");
 			content: '';
